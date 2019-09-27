@@ -1,0 +1,30 @@
+print("****************************")
+print("DATA INPUTAN")
+nis=input("NIS : ")
+Nama=input("Nama : ")
+JK=input("JK : ")
+Rombel=input("Rombel : ")
+Rayon= input ("Rayon : ")
+indo=int(input("Nilai B. Indonesia : "))
+mtk = int(input("Nilai Matematika : "))
+inggris= int (input("Nilai B. Inggris : "))
+print("*****************************")
+print("LAPORAN NILAI AKHIR SEMESTER")
+print("SMK WIKRAMA BOGOR")
+print("-----DATA DIRI--------")
+print("NIS : ",nis)
+print("Nama : ",Nama)
+print("JK : ",JK)
+print("Rombel : ",Rombel)
+print("Rayon : ",Rayon)
+print("------NILAI-------")
+print("Bahasa Indonesia : ",indo)
+print("matematika : ",mtk)
+print("Bahasa Inggris : ",inggris)
+rata=indo+mtk+inggris/3
+if rata >=75 :
+    a="LULUS"
+else:
+    a="TIDAK LULUS"
+print("Rata-rata Nilai : ",rata)
+print("Kriteria Kelulusan : ",a)
